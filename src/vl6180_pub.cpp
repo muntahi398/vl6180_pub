@@ -121,8 +121,12 @@ int main(int argc, char **argv)
         MSG *temp = new MSG;
         deserialize(server_reply, temp);
         printMsg(temp);
+        if ((temp->sensor_no) == 1) {
+
+        }
 
     }
+
 
 
     // ros part
