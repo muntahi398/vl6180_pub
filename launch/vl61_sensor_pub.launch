@@ -1,0 +1,6 @@
+<launch>
+  <node name="nh_" pkg="vl6180_pub" type="vl6180_publish"  />
+  <param name="ip" value="192.168.0.106" />
+</launch>
+
+

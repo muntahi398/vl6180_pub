@@ -20,7 +20,7 @@ include_directories(include ${catkin_INCLUDE_DIRS})
 
 
 
-add_executable(vl6180_publish src/vl6180_pub.cpp src/vl6180_pub.cpp)
+add_executable(vl6180_publish src/vl6180_pub.cpp)
 target_link_libraries(vl6180_publish ${catkin_LIBRARIES})
 #add_dependencies(talker diagnostic_light_generate_messages_cpp)
 
